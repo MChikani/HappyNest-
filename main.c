@@ -296,21 +296,21 @@ void performAutomatedTests() {
 
 int main() {
   // Uncomment the line below to run automated tests
-  performAutomatedTests();
+  // performAutomatedTests();
 
-  // // The rest of your code remains unchanged
-  // User user;
+  // comment this if you run testing
+  User user;
 
-  // // Prompt user for name, mood, and activity
-  // getUserName(&user);
-  // getUserMood(&user);
-  // getUserActivityType(&user);
+  // Prompt user for name, mood, and activity
+  getUserName(&user);
+  getUserMood(&user);
+  getUserActivityType(&user);
 
-  // // Display user information
-  // displayUser(&user);
+  // Display user information
+  displayUser(&user);
 
-  // // Check post-activity mood and inquire about physical discomfort
-  // postActivityMoodCheck(&user);
+  // Check post-activity mood and inquire about physical discomfort
+  postActivityMoodCheck(&user);
 
   return 0;
 }
